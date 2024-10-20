@@ -101,6 +101,8 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repository: git@github.com:MuYanustc/MuYanustc.github.io.git
-  branch: gh-pages
+  - type: shell
+    command: git add . && git commit -m "raw file update" && git push -u origin main
+  - type: git
+    repository: git@github.com:MuYanustc/MuYanustc.github.io.git
+    branch: gh-pages
