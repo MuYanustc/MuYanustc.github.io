@@ -6,7 +6,7 @@
   <link href="https://muyanustc.github.io/atom.xml" rel="self"/>
   
   <link href="https://muyanustc.github.io/"/>
-  <updated>2024-10-20T17:42:59.917Z</updated>
+  <updated>2024-10-20T16:21:53.644Z</updated>
   <id>https://muyanustc.github.io/</id>
   
   <author>
@@ -15,53 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>test3</title>
-    <link href="https://muyanustc.github.io/2024/10/21/test3/"/>
-    <id>https://muyanustc.github.io/2024/10/21/test3/</id>
-    <published>2024-10-20T17:42:59.000Z</published>
-    <updated>2024-10-20T17:42:59.917Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>test2</title>
-    <link href="https://muyanustc.github.io/2024/10/21/test2/"/>
-    <id>https://muyanustc.github.io/2024/10/21/test2/</id>
-    <published>2024-10-20T17:23:36.000Z</published>
-    <updated>2024-10-20T17:23:36.658Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://muyanustc.github.io/2024/10/21/test/"/>
-    <id>https://muyanustc.github.io/2024/10/21/test/</id>
-    <published>2024-10-20T16:26:44.000Z</published>
-    <updated>2024-10-20T17:20:11.237Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="here"><a href="#here" class="headerlink" title="here"></a>here</h1><p>add relly?</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;here&quot;&gt;&lt;a href=&quot;#here&quot; class=&quot;headerlink&quot; title=&quot;here&quot;&gt;&lt;/a&gt;here&lt;/h1&gt;&lt;p&gt;add relly?&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
