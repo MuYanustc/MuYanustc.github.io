@@ -62,7 +62,7 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img: /img/whale.png
+default_top_img: https://bu.dusays.com/2024/10/24/671921799465a.png
 
 # The banner image of index page
 index_img:
