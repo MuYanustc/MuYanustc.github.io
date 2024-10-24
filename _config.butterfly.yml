@@ -38,7 +38,7 @@ code_blocks:
   copy: true
   language: true
   # true: shrink the code blocks | false: expand the code blocks | none: expand code blocks and hide the button
-  shrink: true
+  shrink: false
   fullpage: false
 
 # Social media links
@@ -81,17 +81,17 @@ tag_per_img:
 # Note: category page, not categories page
 category_img:
 
+
 # The banner image of category page, you can set the banner image for each category
 # Format:
 #  - category name: xxxxx
 category_per_img:
-
 # The background image of footer
-footer_img: false
+footer_img: https://bu.dusays.com/2024/10/24/671927489fa2b.png
 
 # Website Background
 # Can set it to color or image url
-background:
+background: 
 
 cover:
   # Disable the cover or not
@@ -444,7 +444,7 @@ busuanzi:
 math:
   # Choose: mathjax, katex
   # Leave it empty if you don't need math
-  use:
+  use: mathjax
   per_page: true
   hide_scrollbar: false
 
@@ -993,7 +993,7 @@ pangu:
 # Lazyload
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: true
+  enable: false
   # Specify the field to use lazyload (site or post)
   field: site
   placeholder:

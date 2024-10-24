@@ -122,3 +122,4 @@ deploy:
   - type: git
     repository: git@github.com:MuYanustc/MuYanustc.github.io.git
     branch: gh-pages
+ 
