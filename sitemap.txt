@@ -8,5 +8,6 @@ https://muyanustc.github.io/categories/index.html
 https://muyanustc.github.io/tags/index.html
 https://muyanustc.github.io/
 https://muyanustc.github.io/tags/test/
+https://muyanustc.github.io/tags/hexo/
 https://muyanustc.github.io/categories/tech/
 https://muyanustc.github.io/categories/life/
