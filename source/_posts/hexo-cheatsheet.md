@@ -6,6 +6,7 @@ cover: 'https://bu.dusays.com/2024/10/24/671935201b0f2.jpg'
 abbrlink: 1c2fa9ee
 date: 2024-10-30 20:04:38
 tags:
+- hexo
 ---
 
 # 写在前面
@@ -168,7 +169,9 @@ deploy:
 
 > notice: 基础的git配置在这里略去了。github仓库的名字需要是`<username>.github.io`, 以及在github repository settings中，设置github pages的source为`gh-pages`分支。
 
+## 图床方案
 
+使用[7bu](https://7bu.top/login)，可以自动同步图片到github，并且可以生成markdown的图片链接。配合[Piclist](https://github.com/Kuingsmile/PicList)和其vscode/cursor插件，可以方便的将图片插入到markdown中。
 ## 一些现存的问题/可能改进的方向
 
 ### 主题的更新
@@ -189,4 +192,21 @@ deploy:
 
 将blog部署到多个平台，这就需要修改`github actions`的配置。将仓库推到别的平台。
 
+### 多平台的操作流
+
+现在如果有更改，那么需要先
+
+```shell
+git pull origin main
+```
+
+然后继续修改，是否有更好的方法？（怕忘记了）
+
+忘记了的标准流程应该是？：
+
+```shell
+git stash
+git pull origin main
+git stash pop
+```
 
