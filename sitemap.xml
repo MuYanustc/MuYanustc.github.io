@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://muyanustc.github.io/posts/1c2fa9ee.html</loc>
+    
+    <lastmod>2024-10-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://muyanustc.github.io/posts/c93cf1d4.html</loc>
     
-    <lastmod>2024-10-26</lastmod>
+    <lastmod>2024-10-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +76,7 @@
 
   <url>
     <loc>https://muyanustc.github.io/</loc>
-    <lastmod>2024-10-26</lastmod>
+    <lastmod>2024-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,7 +84,7 @@
   
   <url>
     <loc>https://muyanustc.github.io/tags/test/</loc>
-    <lastmod>2024-10-26</lastmod>
+    <lastmod>2024-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -83,15 +92,15 @@
 
   
   <url>
-    <loc>https://muyanustc.github.io/categories/life/</loc>
-    <lastmod>2024-10-26</lastmod>
+    <loc>https://muyanustc.github.io/categories/tech/</loc>
+    <lastmod>2024-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://muyanustc.github.io/categories/tech/</loc>
-    <lastmod>2024-10-26</lastmod>
+    <loc>https://muyanustc.github.io/categories/life/</loc>
+    <lastmod>2024-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
