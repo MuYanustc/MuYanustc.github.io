@@ -6,7 +6,7 @@
   <link href="https://muyanustc.github.io/atom.xml" rel="self"/>
   
   <link href="https://muyanustc.github.io/"/>
-  <updated>2024-10-30T13:40:44.765Z</updated>
+  <updated>2024-11-09T15:31:50.512Z</updated>
   <id>https://muyanustc.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WSL配置</title>
+    <link href="https://muyanustc.github.io/posts/33ee5048.html"/>
+    <id>https://muyanustc.github.io/posts/33ee5048.html</id>
+    <published>2024-11-09T15:24:50.000Z</published>
+    <updated>2024-11-09T15:31:50.512Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="wsl简介">WSL简介</h1><p>TBC...</p>]]></content>
+    
+    
+    <summary type="html">这是一篇在Windows下配置WSL的笔记</summary>
+    
+    
+    
+    <category term="tech." scheme="https://muyanustc.github.io/categories/tech/"/>
+    
+    
+    <category term="WSL" scheme="https://muyanustc.github.io/tags/WSL/"/>
+    
+    <category term="Env." scheme="https://muyanustc.github.io/tags/Env/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo-cheatsheet</title>
