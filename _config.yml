@@ -125,4 +125,11 @@ deploy:
   - type: git
     repository: git@github.com:MuYanustc/MuYanustc.github.io.git
     branch: gh-pages
- 
+
+
+# _config.yml
+
+easy_tags_plugin:
+  enable: true
+  tag_name_case: 0
+  sort_ignore_case: true
