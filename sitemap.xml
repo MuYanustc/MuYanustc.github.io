@@ -85,7 +85,7 @@
 
   <url>
     <loc>https://muyanustc.github.io/</loc>
-    <lastmod>2024-11-09</lastmod>
+    <lastmod>2024-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,28 +93,28 @@
   
   <url>
     <loc>https://muyanustc.github.io/tags/test/</loc>
-    <lastmod>2024-11-09</lastmod>
+    <lastmod>2024-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://muyanustc.github.io/tags/hexo/</loc>
-    <lastmod>2024-11-09</lastmod>
+    <lastmod>2024-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://muyanustc.github.io/tags/WSL/</loc>
-    <lastmod>2024-11-09</lastmod>
+    <lastmod>2024-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://muyanustc.github.io/tags/Env/</loc>
-    <lastmod>2024-11-09</lastmod>
+    <lastmod>2024-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -123,14 +123,14 @@
   
   <url>
     <loc>https://muyanustc.github.io/categories/tech/</loc>
-    <lastmod>2024-11-09</lastmod>
+    <lastmod>2024-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://muyanustc.github.io/categories/life/</loc>
-    <lastmod>2024-11-09</lastmod>
+    <lastmod>2024-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
