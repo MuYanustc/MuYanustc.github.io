@@ -56,11 +56,11 @@
     <category term="tech." scheme="https://muyanustc.github.io/categories/tech/"/>
     
     
-    <category term="WSL" scheme="https://muyanustc.github.io/tags/WSL/"/>
-    
     <category term="Env." scheme="https://muyanustc.github.io/tags/Env/"/>
     
     <category term="Linux" scheme="https://muyanustc.github.io/tags/Linux/"/>
+    
+    <category term="WSL" scheme="https://muyanustc.github.io/tags/WSL/"/>
     
     <category term="Windows" scheme="https://muyanustc.github.io/tags/Windows/"/>
     
