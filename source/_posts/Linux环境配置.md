@@ -8,8 +8,10 @@ date: 2024-11-13 10:20:52
 tags:
 - Env.
 - Linux
+marked:
+  smartypants: true
 ---
 
 # Why Linux?
 
-TBC...
+TBC...标点测试。
