@@ -7,9 +7,14 @@ abbrlink: 1c2fa9ee
 date: 2024-10-30 20:04:38
 tags:
 - hexo
-marked:
-  smartypants: false
 ---
+
+
+测试
+
+$$
+ \frac{1}{2} + \frac{1}{3} = \frac{5}{6}
+$$
 
 # 写在前面
 

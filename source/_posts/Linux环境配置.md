@@ -8,10 +8,12 @@ date: 2024-11-13 10:20:52
 tags:
 - Env.
 - Linux
-marked:
-  smartypants: true
 ---
 
 # Why Linux?
 
 TBC...标点测试。
+
+$$
+ \frac{1}{2} + \frac{1}{3} = \frac{5}{6}
+$$
