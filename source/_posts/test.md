@@ -8,6 +8,11 @@ categories: tech.
 cover: 'https://bu.dusays.com/2024/10/24/671935201b0f2.jpg'
 description: This is a test doc for all kinds of markdown grammer.
 ---
+
+
+# 中文标点测试
+
+。。。。，，，，，：：：；；；“双引号” ‘单引号’
 # Editor.md
 
 
