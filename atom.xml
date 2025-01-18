@@ -6,7 +6,7 @@
   <link href="https://muyanustc.github.io/atom.xml" rel="self"/>
   
   <link href="https://muyanustc.github.io/"/>
-  <updated>2025-01-18T07:25:55.565Z</updated>
+  <updated>2025-01-18T07:26:05.572Z</updated>
   <id>https://muyanustc.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://muyanustc.github.io/posts/d87f7e0c.html"/>
     <id>https://muyanustc.github.io/posts/d87f7e0c.html</id>
     <published>2025-01-18T07:25:37.000Z</published>
-    <updated>2025-01-18T07:25:55.565Z</updated>
+    <updated>2025-01-18T07:26:05.572Z</updated>
     
     <content type="html"><![CDATA[<h1 id="test-tags">test tags</h1>]]></content>
     
@@ -46,7 +46,7 @@
     <link href="https://muyanustc.github.io/posts/8bfaa66d.html"/>
     <id>https://muyanustc.github.io/posts/8bfaa66d.html</id>
     <published>2025-01-18T07:10:32.000Z</published>
-    <updated>2025-01-18T07:24:14.682Z</updated>
+    <updated>2025-01-18T07:27:26.873Z</updated>
     
     <content type="html"><![CDATA[<h1 id="写在前面">写在前面</h1><p>已经回家了！研一上半学期来个quick summary吧！</p><ul><li>前1/3时间：苦苦挣扎在coreset项目里</li><li>中间1/3时间：苦苦挣扎在换导师过程里</li><li>后1/3时间：美美开摆（bushi</li></ul><p>好吧，后1/3时间确实是有点摆了（</p><h1 id="why-月记">why 月记</h1><p>感觉自己需要稍微自我push一下hhh，感觉不然容易摆烂（加上感觉自己对这种形式的随记不是很排斥，那就开始吧！</p><h1 id="section">1.18</h1><p>自从上次配置完hexo就扔那没管了</p>]]></content>
     
@@ -58,6 +58,10 @@
     <category term="Life" scheme="https://muyanustc.github.io/categories/Life/"/>
     
     
+    <category term="Dairy" scheme="https://muyanustc.github.io/tags/Dairy/"/>
+    
+    <category term="2025" scheme="https://muyanustc.github.io/tags/2025/"/>
+    
   </entry>
   
   <entry>
@@ -65,7 +69,7 @@
     <link href="https://muyanustc.github.io/posts/672ed073.html"/>
     <id>https://muyanustc.github.io/posts/672ed073.html</id>
     <published>2024-11-22T06:58:13.000Z</published>
-    <updated>2025-01-18T07:24:17.703Z</updated>
+    <updated>2025-01-18T07:26:05.569Z</updated>
     
     <content type="html"><![CDATA[<h1 id="免责声明">免责声明</h1><p>本文仅限于技术交流，<strong>请勿用于非法用途</strong>。</p><h1 id="背景">背景</h1><p>出于众所周知的原因，国内访问github等网站需要科学上网。</p><h1 id="工具">工具</h1><h2 id="windowsclash-for-windows">Windows——clash for windows</h2><h2 id="macclashx">Mac——clashx</h2><h2 id="linux">Linux</h2><p>TBC</p>]]></content>
     
