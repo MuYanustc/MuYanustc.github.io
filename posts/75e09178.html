@@ -1,0 +1,253 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>2025-05-小记 | Just a normal guy knowing a litte bit cs!</title><meta name="author" content="MuYan"><meta name="copyright" content="MuYan"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="This is a test post for life post.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2025-05-小记">
+<meta property="og:url" content="https://muyanustc.github.io/posts/75e09178.html">
+<meta property="og:site_name" content="Just a normal guy knowing a litte bit cs!">
+<meta property="og:description" content="This is a test post for life post.">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://bu.dusays.com/2024/10/24/6719395c20ec4.png">
+<meta property="article:published_time" content="2025-05-07T09:13:59.000Z">
+<meta property="article:modified_time" content="2025-07-24T08:07:03.592Z">
+<meta property="article:author" content="MuYan">
+<meta property="article:tag" content="Dairy">
+<meta property="article:tag" content="2025">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://bu.dusays.com/2024/10/24/6719395c20ec4.png"><link rel="shortcut icon" href="/img/favicon-32x32.png"><link rel="canonical" href="https://muyanustc.github.io/posts/75e09178.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="manifest" href="/null"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!true && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        if (name && globalFn[key][name]) return
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":-1,"unescape":true,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: {"chs_to_cht":"已切换为繁体中文","cht_to_chs":"已切换为简体中文","day_to_night":"已切换为深色模式","night_to_day":"已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: true,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '2025-05-小记',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2025-07-24 16:07:03'
+}</script><link rel="stylesheet" href="/css/font.css"><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Just a normal guy knowing a litte bit cs!" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/w_avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">14</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-layer-group"></i><span> Categories</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background-image: url(https://bu.dusays.com/2024/10/24/6719395c20ec4.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Just a normal guy knowing a litte bit cs!</span></a><a class="nav-page-title" href="/"><span class="site-name">2025-05-小记</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-layer-group"></i><span> Categories</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">2025-05-小记</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-05-07T09:13:59.000Z" title="发表于 2025-05-07 17:13:59">2025-05-07</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-07-24T08:07:03.592Z" title="更新于 2025-07-24 16:07:03">2025-07-24</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Life/">Life</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="99e3c7f2b6e8df9b1725f79aae1711c81c717eabe8080db80e4b9ef1d9daaf2c">e8a288a82b7d3911279a94e00fadaccd2b64d16a8e86f0ff5a1b04cbbc844a9043ad9fc4fd4f9cbd51f1da1ca78388b652fc1a06628f038777973947cc3b0da351070b5fa7418bdbffdcf8f90b6f30fef9ad663c65e71b8b945addb9949e7a238e51d6c765b011b63429a1504f83e8fffa014bf7bcb28947f71b402ca2a23b5e445d14eb902b568e9f1d7a3d9fd27cdfd09b3484389073e40da65590b2e248961be4da0e91aa3d54acaa5cd84d387741c1a9dd46d8b14901f2ec64da53d0a9a06a5fd7d4264b9c4154cf99ee47ccb630d2d7fa55fb7e9b8b8ea33c4d5e0fc9e4d8a07932741f990967452e85b2398b2ba1c7ef8cd5e4e99c58ae7fb1cf6b0b8b27a560c9591612ff757bd1f9bd21e45887c227611c3911b3cf578d0f4e6f7c118f72948bc1058c07afa5d124c4606820b9fa14f2674436ff29a0179c7f24ea1283b8f4b5cafc52d327e1a640cf0af8b6042c6cf3deef6a187d36af0514c6cb00d0b92685c2113f4a2ee2c9a8b5a87b105e761f9aea8addd9e84fa9e49fefeee8a1c2951a268073501868d71dede0323fc0f0f3780acd0473b80d3f6b645267e4ed73672d5a3e1539dd45b42257730910406707a92b246841325532fdc7074943e0318e45435a45a274ddf3ba7d97cf0c28b9f2fa2d3ffc232531dc98fd00850fbd9534ec6e5a47fac7e993bd46a25a5a14a4169645e28dba61157402d71a36733242d73f9397816ec52a4afa2021fa53a72e8781db854ea13345f44aadab9b8557efe55f7c3d0cad06c11ef36ff8f57f5d12b620e1d33037da8b4fcac397d18fd36003ba27810c971c1f24cb59aafb145abeda1d1f9a315957d7c3d69f761974900a72456c5f895e426801a30a45bc297653fa56db003632c3f15e19bcb875cf74b1341d2e3a2467faa523613672d970be3962b5c42a3f872974505f9323bcede4048be219e44a783530247592073b853a91adf9a4fb3414f2ed0efd122fc734d7a431c5da5defc8bd233f3db075555084cdadd9f545a71fe5d16573fdb459faa2dab8c179a170df12545b35fed0aaa019f80c0811fdae9488b2f37989ebb201023424fd5261c6e6a5f6eb8da89b3dc1a32ce67716d423ce45933f7b5514a8ea190998ed4b33b10cbb45b1b60f86a4270d66f582d3342309f3de96257b3566c32e7dce84f096055d511da89e93730305be7afbc001d21beff6b7cc15f72d963fa3ea789975c44b657fcd2ee2209b6b53a30710967b16246b1100be2e2dbd8c52823455f25699337dadc1393eaca702544446d2779b35b20bb327d82fc26c65cbb13672f608b677d63b7adfc58c66e65d89f338170c62b5f11ddbf00208b180227edf9dce57973cff8810618312e4d924cbf08fc7845d7063b71794db7a21c21723cc64d531db54f39255799b33d45e6baa9c26f7cfde00ab9bb40a8446a2fadadf42ba815b924f0933d46c74ee499cafff5ecb35c4fe20a67e0c0d09da36aba1c114b4203dec2a6d310742a71adc5cde0668fd80f43761b412d5e0f4591458a8f14f6781a8feda1c770f8791834e1382fa6c84b2f2f56239d106426285ee3e3d8b6e1ba0dc6f477e792fb1fea6ef50389213201a121363736d711a69855349f68fb71e4cab47a70ab1b445fdfa4a2332bcd918c254e1dd77e8f0655c2ad590757e096663bb4ea2187b9e6aa918e641cf1ad58ec81032df6eaf140fec8a4f4f4c8187b3746a1e398c21fe0bd4873d5caf11174b293457d090cc3f752881830b96bbef50e7a5ea033a0caee4861285ef88bb1a1b17563a3c85721f8e55d595e218cee724050e63c61e2c02740fc0b564ddad2766adbbbca370a78791f880044a4bff03b99e95f5b5502da3eb101a0d2b98467e8d2b47f3dcd6508c4d92daed406db028f7d85d4e3272501b851a696447551bcaa2a101a2b381fb76907e7a2453fead765afe35cdbb3e2beaa568c7f449a4b02a140ebda60461eed60df14cd877e47d6b2c70e8eca0b5cafeb2cb033b6097445c65a3ebc2cd69625e87a49c6cd54be2d343ee9e094dada39b665846741c864fc72c61841a38ed1ad26d3ba495e87706a2ea4f7abc3871de9bdc4a8610a0fe31b2e3b0c61f0e5e89e18c5c0fb1857838f91f6281de228a7aca304a0b3d498b4add0c8e59e26f92edc686db0ac57c15a909d5673b8cde1333b8a09367bb9c1ddd20890e4d4073cadbd32b54b98c184199d2fb5f3956173806a6c46fd02b783ce0bfe628558c25d1f348e80baa9ada98e01590709949fa1816bb85f1e547c0115e54c5b294d97f936eb8fcbdb12c409357fbf7f613cf2a6fd26ea0c34158af36f80de2c0ae74eed5f66f3dff7470fda9</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css"></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://muyanustc.github.io">MuYan</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://muyanustc.github.io/posts/75e09178.html">https://muyanustc.github.io/posts/75e09178.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://muyanustc.github.io" target="_blank">Just a normal guy knowing a litte bit cs!</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Dairy/">Dairy</a><a class="post-meta__tags" href="/tags/2025/">2025</a></div><div class="post-share"><div class="social-share" data-image="https://bu.dusays.com/2024/10/24/6719395c20ec4.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/posts/c31aa809.html" title="2025/04 月记"><img class="cover" src="https://bu.dusays.com/2024/10/24/6719395c20ec4.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">2025/04 月记</div></div><div class="info-2"><div class="info-item-1">四月</div></div></div></a><a class="pagination-related" href="/posts/fb6f969b.html" title="2025-06-小记"><img class="cover" src="https://bu.dusays.com/2024/10/24/6719395c20ec4.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">2025-06-小记</div></div><div class="info-2"><div class="info-item-1">This is a test post for life post.</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/posts/c31aa809.html" title="2025&#x2F;04 月记"><img class="cover" src="https://bu.dusays.com/2024/10/24/6719395c20ec4.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-04-04</div><div class="info-item-2">2025&#x2F;04 月记</div></div><div class="info-2"><div class="info-item-1">四月</div></div></div></a><a class="pagination-related" href="/posts/8bfaa66d.html" title="2025&#x2F;01 月记"><img class="cover" src="https://bu.dusays.com/2024/10/24/6719395c20ec4.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-01-18</div><div class="info-item-2">2025&#x2F;01 月记</div></div><div class="info-2"><div class="info-item-1">这是2025年1月的月记，也是第一次开始记！</div></div></div></a><a class="pagination-related" href="/posts/7f259861.html" title="2025-02-小记"><img class="cover" src="https://bu.dusays.com/2024/10/24/6719395c20ec4.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-02-22</div><div class="info-item-2">2025-02-小记</div></div><div class="info-2"><div class="info-item-1">2月</div></div></div></a><a class="pagination-related" href="/posts/fb6f969b.html" title="2025-06-小记"><img class="cover" src="https://bu.dusays.com/2024/10/24/6719395c20ec4.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-06-19</div><div class="info-item-2">2025-06-小记</div></div><div class="info-2"><div class="info-item-1">This is a test post for life post.</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/w_avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">MuYan</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">14</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/MuYanustc"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content toc-div-class" style="display:none"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#section"><span class="toc-number">1.</span> <span class="toc-text">5.7</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%87%8F%E5%8C%96%E6%97%A5%E8%AE%B0"><span class="toc-number">2.</span> <span class="toc-text">5.8 量化日记</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/82d44a65.html" title="zsh配置"><img src="https://bu.dusays.com/2024/10/24/671935201b0f2.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="zsh配置"/></a><div class="content"><a class="title" href="/posts/82d44a65.html" title="zsh配置">zsh配置</a><time datetime="2025-06-26T09:47:37.000Z" title="发表于 2025-06-26 17:47:37">2025-06-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/fb6f969b.html" title="2025-06-小记"><img src="https://bu.dusays.com/2024/10/24/6719395c20ec4.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2025-06-小记"/></a><div class="content"><a class="title" href="/posts/fb6f969b.html" title="2025-06-小记">2025-06-小记</a><time datetime="2025-06-19T08:25:24.000Z" title="发表于 2025-06-19 16:25:24">2025-06-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/75e09178.html" title="2025-05-小记"><img src="https://bu.dusays.com/2024/10/24/6719395c20ec4.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2025-05-小记"/></a><div class="content"><a class="title" href="/posts/75e09178.html" title="2025-05-小记">2025-05-小记</a><time datetime="2025-05-07T09:13:59.000Z" title="发表于 2025-05-07 17:13:59">2025-05-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/c31aa809.html" title="2025/04 月记"><img src="https://bu.dusays.com/2024/10/24/6719395c20ec4.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2025/04 月记"/></a><div class="content"><a class="title" href="/posts/c31aa809.html" title="2025/04 月记">2025/04 月记</a><time datetime="2025-04-04T03:16:35.000Z" title="发表于 2025-04-04 11:16:35">2025-04-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/62c3487e.html" title="前端相关"><img src="https://bu.dusays.com/2024/10/24/671935201b0f2.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="前端相关"/></a><div class="content"><a class="title" href="/posts/62c3487e.html" title="前端相关">前端相关</a><time datetime="2025-02-22T07:23:41.000Z" title="发表于 2025-02-22 15:23:41">2025-02-22</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://bu.dusays.com/2024/10/24/671927489fa2b.png);"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2025 By MuYan</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Enjoy!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"><script>(() => {
+  const loadMathjax = () => {
+    if (!window.MathJax) {
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          tags: 'none',
+        },
+        chtml: {
+          scale: 1.1
+        },
+        options: {
+          enableMenu: true,
+          renderActions: {
+            findScript: [10, doc => {
+              for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+                const display = !!node.type.match(/; *mode=display/)
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+                const text = document.createTextNode('')
+                node.parentNode.replaceChild(text, node)
+                math.start = {node: text, delim: '', n: 0}
+                math.end = {node: text, delim: '', n: 0}
+                doc.math.push(math)
+              }
+            }, '']
+          }
+        }
+      }
+      
+      const script = document.createElement('script')
+      script.src = 'https://cdn.jsdelivr.net/npm/mathjax/es5/tex-mml-chtml.min.js'
+      script.id = 'MathJax-script'
+      script.async = true
+      document.head.appendChild(script)
+    } else {
+      MathJax.startup.document.state(0)
+      MathJax.texReset()
+      MathJax.typesetPromise()
+    }
+  }
+
+  btf.addGlobalFn('encrypt', loadMathjax, 'mathjax')
+  window.pjax ? loadMathjax() : window.addEventListener('load', loadMathjax)
+})()</script></div><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>(() => {
+  const pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+  window.pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  const triggerPjaxFn = (val) => {
+    if (!val) return
+    Object.values(val).forEach(fn => fn())
+  }
+
+  document.addEventListener('pjax:send', () => {
+    // removeEventListener
+    btf.removeGlobalFnEvent('pjaxSendOnce')
+    btf.removeGlobalFnEvent('themeChange')
+
+    // reset readmode
+    const $bodyClassList = document.body.classList
+    if ($bodyClassList.contains('read-mode')) $bodyClassList.remove('read-mode')
+
+    triggerPjaxFn(window.globalFn.pjaxSend)
+  })
+
+  document.addEventListener('pjax:complete', () => {
+    btf.removeGlobalFnEvent('pjaxCompleteOnce')
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+    })
+
+    triggerPjaxFn(window.globalFn.pjaxComplete)
+  })
+
+  document.addEventListener('pjax:error', e => {
+    if (e.request.status === 404) {
+      pjax.loadUrl('/404.html')
+    }
+  })
+})()</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
